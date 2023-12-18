@@ -1,11 +1,16 @@
 import React from 'react';
+import FeaturedRaceCard from '../featuredracecard/FeaturedRaceCard';
 import './FeaturedRaces.css';
 
-const FeaturedRaces = () => {
+const FeaturedRaces = ({races}) => {
   return (
     <section className="featured-races">
       <h2>Featured Races</h2>
-      {/* Include race previews or links to detailed race information */}
+      <div className="card-container">
+        {races.map((race, index) => (
+          <FeaturedRaceCard key={index} {...race} />
+        ))}
+      </div>   
     </section>
   );
 };

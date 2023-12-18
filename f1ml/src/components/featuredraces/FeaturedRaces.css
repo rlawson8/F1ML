@@ -1,7 +1,22 @@
 .featured-races {
-    padding: 2rem;
-  }
-  
-  .featured-races h2 {
-    color: #333;
-  }
+  padding: 2rem;
+  background-image: url('../../images/trackbackground.jpeg'); /* Replace with the actual path to your image */
+  background-size: cover;
+  background-position: center;
+  color: #fff; /* Set the text color to ensure readability on the background */
+}
+
+.featured-races h2 {
+  color: #fff;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* Additional styling for the FeaturedRaceCard component */
+.card-container .card {
+  margin-bottom: 20px;
+}

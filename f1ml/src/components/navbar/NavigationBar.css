@@ -1,0 +1,20 @@
+.navigation-bar {
+    background-color: #333;
+    padding: 1rem;
+  }
+  
+  .navigation-bar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .navigation-bar li {
+    margin-right: 1rem;
+  }
+  
+  .navigation-bar a {
+    color: #fff;
+    text-decoration: none;
+  }
