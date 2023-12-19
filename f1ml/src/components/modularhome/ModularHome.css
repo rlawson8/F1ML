@@ -1,0 +1,10 @@
+.race-section {
+    padding: 2rem;
+  }
+  
+  .card-section {
+    display: flex;
+    gap: 1rem; /* Adjust the gap between cards */
+  }
+  
+  /* Additional styling for the cards if needed */

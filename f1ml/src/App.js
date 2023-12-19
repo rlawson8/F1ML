@@ -1,9 +1,9 @@
 import React from 'react';
-import Header from './components/header/Header';
 import HeroSection from './components/herosection/HeroSection';
 import FeaturedRaces from './components/featuredraces/FeaturedRaces';
 import './App.css';
 import NavigationBar from './components/navbar/NavigationBar';
+import ModularHome from './components/modularhome/ModularHome';
 
 function App() {
 
@@ -17,10 +17,9 @@ function App() {
 
   return (
     <div className="app">
-      <Header />
       <NavigationBar />
       <HeroSection />
-      <FeaturedRaces races={featuredRaces}/>
+      <ModularHome featuredRaces={featuredRaces}/>
     </div>
   );
 }

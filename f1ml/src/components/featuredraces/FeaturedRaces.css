@@ -1,13 +1,10 @@
 .featured-races {
   padding: 2rem;
-  background-image: url('../../images/trackbackground.jpeg'); /* Replace with the actual path to your image */
-  background-size: cover;
-  background-position: center;
-  color: #fff; /* Set the text color to ensure readability on the background */
+  color: black; /* Set the text color to ensure readability on the background */
 }
 
 .featured-races h2 {
-  color: #fff;
+  color: black;
 }
 
 .card-container {
