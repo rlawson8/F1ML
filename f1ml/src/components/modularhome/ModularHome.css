@@ -1,10 +1,22 @@
 .race-section {
     padding: 2rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
   
   .card-section {
-    display: flex;
+    /* display: flex; */
+    padding: 1rem;
     gap: 1rem; /* Adjust the gap between cards */
   }
+
+  .card-sub-section {
+    display: flex;
+    /* gap: 1rem; Adjust the gap between cards */
+    width: 100%;
+  }
   
+  .col-sm-6 {
+    padding: 1rem;
+  }
   /* Additional styling for the cards if needed */

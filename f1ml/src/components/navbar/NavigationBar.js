@@ -12,6 +12,7 @@ const NavigationBar = () => {
           </a>
         </li>
         <li><a href="/predictions">Predictions</a></li>
+        <li><a href="/strategies">Strategies</a></li>
         <li><a href="/schedule">Schedule</a></li>
         <li><a href="/about">About</a></li>
         {/* Add more navigation links as needed */}

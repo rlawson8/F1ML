@@ -1,14 +1,14 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import './TryItCard.css'
+import './TryStratCard.css';
 
 const TryItCard = () => {
   return (
     <Card>
       <Card.Body>
-        <Card.Title>Try It for Yourself</Card.Title>
+        <Card.Title>Explore Strategies</Card.Title>
         <Card.Text>
-          Experience the thrill of predicting race outcomes.
+          Experiment with a wide variety of race factors to figure out optimal strategies.
         </Card.Text>
         <Card.Link href="/predictions">Click here to start!</Card.Link>
       </Card.Body>
