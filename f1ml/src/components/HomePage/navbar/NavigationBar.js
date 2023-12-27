@@ -1,6 +1,6 @@
 import React from 'react';
 import './NavigationBar.css';
-import logoImage from '../../images/FormulaForecast.png';
+import logoImage from '../../../images/FormulaForecast.png';
 
 const NavigationBar = () => {
   return (

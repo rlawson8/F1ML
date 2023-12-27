@@ -1,9 +1,8 @@
 import React from 'react';
-import HeroSection from './components/herosection/HeroSection';
-import FeaturedRaces from './components/featuredraces/FeaturedRaces';
+import HeroSection from './components/HomePage/herosection/HeroSection';
 import './App.css';
-import NavigationBar from './components/navbar/NavigationBar';
-import ModularHome from './components/modularhome/ModularHome';
+import NavigationBar from './components/HomePage/navbar/NavigationBar';
+import ModularHome from './components/HomePage/modularhome/ModularHome';
 
 function App() {
 
